@@ -15,30 +15,16 @@ public class Switch {
        dia = scanner.next().charAt(0);
        
        switch (dia) {
-           case 'e':
-               System.out.println("enero");
-       
-               break;
-               default:
-                   System.out.println("mes no valido");
-                   break;
+           case 'e' -> System.out.println("enero");
+               default -> System.out.println("mes no valido");
                    
                    
-           case 'f':
-               System.out.println("febrero");
-       
-               break;
+           case 'f' -> System.out.println("febrero");
                
-                  case 'm':
-               System.out.println("marzo");
-       
-               break;
-                  case 'a':
-               System.out.println("abril");
-       
-               break;
+                  case 'm' -> System.out.println("marzo");
+                  case 'a' -> System.out.println("abril");
                
- 
+                  case 'd' -> System.out.println("diciembre");
        
                  
 
